@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+    margin: opx;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Poppins, sans-serif ;
+    box-sizing: border-box;
+    
+    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /*to split the content to left and right*/
+    padding: 13px 10px;
+    background-color: #0f0c27;
+    color: white;
+    border-bottom: solid 1px rgb(228, 21, 21);
+    top: 0px;
+
+    
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+    padding-top: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    /* font-size: 1.rem; */
+}
+.logo{
+    font-size: 1.8rem;
+    margin-left: 25px;
+    margin-top: 9px;
+    font-weight: 600;
+
+}
+
+ul a {
+    font-size: 2.rem;
+}
+.home {
+    background-color: #0f0c27;
+    height: 85vh;
+    display: flex;
+    margin-top: 70px;
+    padding-bottom: 0px;
+    /* bottom: 0px; */
+}
+.social{
+    height: 100px;
+}
+section{
+    padding: 100px 10%;
+    /* justify-content: space-between; */
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social a i{
+    font-size: 2rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.home-text {
+    color: white;
+    padding-left: 90px;
+    height: 90%;
+}
+.home-image{
+    height: 90%;
+}
+.contactme{
+    color: white;
+    text-decoration: none;
+    background-color: #033a80;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.home-image img{
+    height: 400px;
+    width: 350px;
+}
+
+.heading-name{
+    font-size: 2.5rem;
+}
+.para-home{
+    font-size: 1.2rem;
+    margin: 20px 0px;
+}
+.aboutme{
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 56px;
+    /* top: 0;
+    margin-top: 0; */
+    
+
+}
+.aboutme-section{
+    display: flex;
+    margin-top: 50px;
+    text-align: left;
+
+}
+.aboutme-section img{
+    border-radius: 9px;
+    margin-left: 0px;
+    
+}
+.aboutme-text {
+    width: 50%;
+    margin-left: 9%;
+}
+.icon-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.downloadcv{
+    margin-top: 20px;
+}
+.aboutme-heading {
+    font-size: 2rem;
+}
+
+.skills {
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.bars-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+.skill-section {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+
+}
+
+
+
+.light-bar{
+    width: 100%;
+    background:hsla(260, 100%, 44%, 0.4);
+    height: 0.5rem;
+    position: absolute;
+    top: 10;
+    bottom: 0;
+}
+.skill-bars {
+    width: 40%;
+}
+
+.percent-bar {
+    position: absolute;
+    top: 10;
+    bottom: 0;
+    background-color: #033a80;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.HTML-bar {
+    width: 80%;
+}
+
+.projects{
+    background-color: #0f0c27;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.project-heading{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.projects img{
+    border-radius: 20px;
+    margin: 5px;
+    height: 300px;
+    width: 250px;
+}
+
+.contact-form{
+    background-color: #0f0c27;
+    color: white;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+.form input, textarea {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-decoration: none;
+    border: 0;
+    padding: 10px;
+}
+
+
+.contact-form h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.submit {
+    margin-top: 20px;
+    width: 20%;
+    background-color: #033a80;
+    color: white;
+    padding: 10px 15px;
+    margin: 0px auto;
+    cursor: pointer;
+}
