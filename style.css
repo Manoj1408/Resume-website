@@ -29,7 +29,14 @@ header{
     width: 40%;
     list-style: none;
     padding-top: 10px;
+    /* height: auto; */
 }
+
+/* .navbar li{
+    margin: 5px;
+    height: 3px;
+    width: 2px;
+} */
 
 header a{
     text-decoration: none;
@@ -60,7 +67,7 @@ ul a {
 }
 section{
     padding: 100px 10%;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .social{
     display: flex;
@@ -79,7 +86,9 @@ section{
     height: 90%;
 }
 .home-image{
-    height: 90%;
+    /* height: 90%; */
+    width: 100%;
+   height: auto;
 }
 .contactme{
     color: white;
@@ -102,16 +111,18 @@ section{
     margin: 20px 0px;
 }
 .aboutme{
+    /* position: relative; */
     text-align: center;
     background-color: #0f0c27;
     color: white;
-    padding-top: 2px;
+    padding-top: 20px;
     padding-bottom: 56px;
-    /* top: 0;
-    margin-top: 0; */
+    /* max-width: 100%; */
+    /* top: 0;*/
+    /* margin-top: 0; */
     
-
 }
+
 .aboutme-section{
     display: flex;
     margin-top: 50px;
@@ -164,13 +175,11 @@ section{
 
 }
 
-
-
 .light-bar{
     width: 100%;
     background:hsla(260, 100%, 44%, 0.4);
     height: 0.5rem;
-    position: absolute;
+    position: absolute; 
     top: 10;
     bottom: 0;
 }
@@ -236,6 +245,10 @@ section{
     margin-bottom: 20px;
     font-size: 2.5rem;
 }
+.contact-form h5{
+    text-align: center;
+    
+}
 
 .submit {
     margin-top: 20px;
@@ -245,4 +258,9 @@ section{
     padding: 10px 15px;
     margin: 0px auto;
     cursor: pointer;
+}
+
+.responsive{
+    width: 100%;
+  height: auto;
 }
